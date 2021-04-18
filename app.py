@@ -13,4 +13,4 @@ def home():
 def turnTVOn():
     return functions.turnTVOn()
 
-app.run(port=14749)
+app.run(host='192.168.18.24', port=14749)
